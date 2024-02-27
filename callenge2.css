@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #e3c39f;
+    overflow-x: hidden;
+}
+#main {
+    height: 100%;
+    width: 100%;   
+}
+#page {
+    font-size: 200px;
+    display: flex;
+    padding: 20px 30px; 
+}
+#nleft {
+    height: 100%;
+    width: 50%;
+    font-weight: 10px;
+    font-size: 30px;
+    display: flex;
+    gap: 50px;}
+
+#nright {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    color: red;
+}
+#nleft h6 img {
+    height: 50px;
+    width: 50px;}
+
+#search {
+    height: 19px;
+    width: 140px;
+    font-size: 20px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.227);
+}
+#search:after {
+    content: "";
+    height: 1.5px;
+    width: 120px;
+    background-color: rgba(5, 5, 125, 0.643);
+    position: absolute;
+    top: 40px;
+}
+.ri-search-line {
+    color: red;
+}
+.ri-user-line {
+    color: red;
+    font-size: 23px;
+    position: absolute;
+    top: 3%;
+    right: 22%;
+}
+.ri-shopping-cart-2-line {
+    color: red;
+    font-size: 23px;
+    position: absolute;
+    top: 3%;
+    right: 17%;
+}
+#nleft h3 {
+    color: red;
+    position: absolute;
+    transform: translate(-50%);
+    top: 30%;
+    left: 17%;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+}
+#sneakers {
+    height: 20%;
+    color: red;
+    font-family: 'Inter', sans-serif;
+    font-size: 90px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 18%;
+}
+#sub {
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    top: 43%;
+    left: 4.5%;
+    color: red;
+    font-family: 'Inter', sans-serif;
+    font-size: 90px;
+}
+#info {
+    height: 10%;
+    width: 46%;
+    position: absolute;
+    top: 57%;
+    left: 4.9%;
+    font-size: 14px;
+}
+#circle {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+#o {
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+#button {
+    background-color: #e3c39f;
+    height: 6%;
+    color: red;
+    width: 12%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 10.8%;
+    border: 3px solid red;
+    padding: 1.5px 10.5px;
+    font-size: 27px;
+}
+#img2 {
+    position: absolute;
+    top: 80%;
+    left: 10.8;
+}
+#box {
+    height: 40%;
+    width: 16%;
+    background-color: #b47f4159;
+    position: absolute;
+    right: 30%;
+    top: 58%;
+    padding: 140px 30px;
+}
+#box ul {
+    color: rgb(96, 32, 32);
+    font-size: medium;
+}
+#img3 {
+    position: absolute;
+    top: 135%;
+    left: 10.8;
+    color: white;
+}
+#img3 p {
+    color: white;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-size: 30px;
+    font-weight: 500;}
+
+#circle2 {
+    position: absolute;
+    top: 240%;
+    left: 20%;
+}
+#img4 {
+    position: absolute;
+    top: 240%;
+    left: 2%;
+}
+#mam {
+    position: absolute;    
+    top: 250%;
+    left: 27%;}
+  #parah{
+    width: 30%;
+    height: 50%;   
+    position: absolute;    
+    top: 250%;
+    left: 60%;
+    font-size: medium;
+  }  
+  #heading{
+    color: red;
+    width: 30%;
+    height: 50%;   
+    position: absolute;   
+    top: 277%;
+    left: 60%;
+    font-size: medium;
+  }
+  #parah2{
+    width: 30%;
+    height: 50%;   
+    position: absolute;
+    top: 280%;
+    left: 60%;
+    font-size: medium;
+  } 
+

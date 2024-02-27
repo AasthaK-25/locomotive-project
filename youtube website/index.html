@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav">
+        <div id="navpart1"></div>
+        <div id="navpart2">
+            <a href="">SHOP</a>
+            <a href="">CATERING</a>
+            <a href="">DONATE</a>
+        </div>
+        <div id="icons">
+            <i class="ri-menu-line"></i>
+            <i class="ri-shopping-cart-2-line"></i>
+        </div>
+    </div>
+    <div id="cursor"></div>
+    <div id="main">
+        <div id="page1">
+            <h1>CHANGE THE COURSE</h1>
+        </div>
+        <div id="video-container">
+            <div id="play">play</div>
+            <video autoplay loop muted src="/video.mp4"></video>
+        </div>
+        <div id="page2">
+            <div class="elem" id="elem1"><img data-scroll data-scroll-speed="0.4"
+                    src="https://cdn.sanity.io/images/w8f1ak3c/production/a54b969c847029357a401e2d8ea5d52abd5451d0-2250x1500.jpg/DSC0051_Dexter%20Kim%20copy.jpg?rect=675,0,900,1500&w=640&h=1067&fit=min&auto=format">
+                <div class="dets" data-scroll data-scroll-speed="-2"></div>
+            </div>
+            <div class="elem" id="elem2"><img data-scroll data-scroll-speed="0.4"
+                    src="https://cdn.sanity.io/images/w8f1ak3c/production/bc3f529e3f10086db91822f615caf549a260362d-1500x2250.jpg/DSC0083_Dexter%20Kim.jpg?rect=75,0,1350,2250&w=640&h=1067&fit=min&auto=format">
+                <div class="dets" data-scroll data-scroll-speed="-2"></div>
+            </div>
+            <div class="elem" id="elem3"><img data-scroll data-scroll-speed="0.4"
+                    src="https://cdn.sanity.io/images/w8f1ak3c/production/d3151106849ff2494d66916cf554c68a0603444d-902x1500.png/Rectangle%20220.png?rect=1,0,900,1500&w=640&h=1067&fit=min&auto=format">
+                <div class="dets" data-scroll data-scroll-speed="-2"></div>
+            </div>
+        </div>
+        <div id="page3">
+            <div id="box1">
+                <h1>WE BELIEVE IN PEOPLE, UNTIL THEY BELIEVE IN THEMSELVES AGAIN.</h1>
+            </div>
+            <div id="box2">
+                <h3>Everything we do is designed to rebuild self worth and independence, in order to break free from the
+                    cycle of disadvantage.
+                    With every purchase you make with us, you're helping to change the course of someone's life; you're
+                    walking alongside vulnerable women as they find their way home again</h3>
+            </div>
+        </div>
+        <div id="page4">
+            <div class="child" id="child1"><img src="./bag.webp"></div>
+            <div class="child" id="child2"><img src="./black bag.webp"></div>
+            <div class="child" id="child3"><img src="./books.webp"></div>
+            <div class="child" id="child4"><img src="./mugs.webp"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
